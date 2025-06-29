@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   const location = useLocation();
+
+  // Auto-close mobile navbar on route change
+  useEffect(() => {
+    const navbarCollapse = document.getElementById("navbarNav");
+    if (navbarCollapse && window.bootstrap) {
+      const bsCollapse = new window.bootstrap.Collapse(navbarCollapse, {
+        toggle: false,
+      });
+      bsCollapse.hide();
+    }
+  }, [location]);
 
   return (
     <nav
