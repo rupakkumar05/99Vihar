@@ -1,4 +1,6 @@
 import React from "react";
+import value from '../../../public/value.png'
+
 import {
   Accordion,
   AccordionItem,
@@ -30,7 +32,7 @@ const Value = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <div className="image-container">
-            <img src="./value.png" alt="value" />
+            <img src={value} alt="value" />
           </div>
         </motion.div>
 

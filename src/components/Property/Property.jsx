@@ -3,6 +3,10 @@ import RightProperty from "./RightProperty";
 import LeftProperty from "./LeftProperty";
 import Touch from "./Touch";
 import Head from "./Head";
+import firstProperty from '../../../public/firstProperty.jpg'
+import secondProperty from '../../../public/secondProperty.jpg'
+import thirdProperty from '../../../public/thirdProperty.jpg'
+import fourthProperty from '../../../public/fourthProperty.jpg'
 
 
 const Property = () => {
@@ -32,7 +36,7 @@ const Property = () => {
             </ul>
           </>
         }
-        imageurl="firstProperty.jpg"
+        imageurl={firstProperty}
       />
       <Touch/>
       <LeftProperty
@@ -55,7 +59,7 @@ const Property = () => {
             </ul>
           </>
         }
-        imageurl="secondProperty.jpg"
+        imageurl={secondProperty}
       />
        <Touch/>
       <RightProperty
@@ -80,7 +84,7 @@ const Property = () => {
             </ul>
           </>
         }
-        imageurl="thirdProperty.jpg"
+        imageurl={thirdProperty}
       />
        <Touch/>
       <LeftProperty
@@ -106,7 +110,7 @@ const Property = () => {
             </ul>
           </>
         }
-        imageurl="fourthProperty.jpg"
+        imageurl={fourthProperty}
       />{" "}
        <Touch/>
     </>

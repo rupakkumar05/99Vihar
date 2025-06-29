@@ -1,4 +1,6 @@
 import React from "react";
+import misssion from '../../../public/misssion.webp';
+
 import {
   Accordion,
   AccordionItem,
@@ -52,7 +54,7 @@ const Mission = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <div className="image-container">
-            <img src="./misssion.webp" alt="mission" />
+            <img src={misssion} alt="mission" />
           </div>
         </motion.div>
 

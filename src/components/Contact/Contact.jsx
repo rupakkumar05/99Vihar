@@ -3,7 +3,7 @@ import "./Contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { motion } from "framer-motion";
-
+import contact from '../../../public/contact.avif'
 const Contact = () => {
   return (
     <motion.section
@@ -81,7 +81,7 @@ const Contact = () => {
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
           <div className="image-container">
-            <img src="/contact.avif" alt="Contact Us" />
+            <img src={contact} alt="Contact Us" />
           </div>
         </motion.div>
       </div>
