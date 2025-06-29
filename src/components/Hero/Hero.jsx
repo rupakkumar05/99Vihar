@@ -3,6 +3,7 @@ import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion, spring } from "framer-motion";
+import homeimg from '../../../public/chatgpt 99 Vihar.png'
 
 const Hero = () => {
   return (
@@ -77,7 +78,7 @@ const Hero = () => {
            }}
            className="image-container">
             {/* <img src="./hero-image.png" alt="Hero" /> */}
-            <img src="./chatgpt 99 Vihar.png" alt="Hero" />
+            <img src={homeimg} alt="Hero" />
           </motion.div>
         </div>
       </div>
