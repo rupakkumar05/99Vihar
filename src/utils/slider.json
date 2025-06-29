@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "99 Vihar — Harpur Ailoth, Samastipur",
+    "price": "7 L",
+    "detail": "5 minutes from Samastipur city — ideal for building your dream home. 16-ft wide roads, gated boundary with 24x7 security, registry & immediate possession.",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "99 Vihar — Ekadash Nagar, Dalsinghsarai",
+    "price": "12 L",
+    "detail": "Located at Pagara Chowk — well connected & family-friendly. 17 & 19-ft roads, electricity & water, registry-ready plots near schools & hospitals.",
+    "image": "./ekadashNagar.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "99 Vihar — Rosera",
+    "price": "14 L",
+    "detail": "Premium plots in peaceful surroundings. Wide internal roads, green parks, and ready for registry & construction — perfect for modern families.",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "99 Vihar — Begusarai",
+    "price": "8.89 L",
+    "detail": "Prime location with fast-growing property value. Gated boundary, wide roads, electricity & water — registry-ready, ideal for investment.",
+    "image": "./besugray.jpg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "99 Vihar — Industrial Plotting Project",
+    "price": "10.90 L",
+    "detail": "Located on a 4-lane highway — ideal for industries/warehouses. 25 & 30-ft wide roads, electricity, and private industrial zones with infrastructure ready.",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "99 Vihar — Harpur Ailoth, Samastipur",
+    "price": "16.50 L",
+    "detail": "Just 5 mins from Samastipur city. 16-ft roads, gated boundary, 24x7 security, registry and immediate possession in a prime location.",
     "image": "./r3.png"
   }
 ]
