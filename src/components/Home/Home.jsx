@@ -1,30 +1,28 @@
-import React from 'react'
-import Hero from '../Hero/Hero'
-import Recidencies from '../Recidencies/Recidencies'
-import Value from '../Value/Value'
-import GetStarted from '../GetStarted/GetStarted'
-import  Contact  from '../Contact/Contact'
+import React from "react";
+import Hero from "../Hero/Hero";
+import Recidencies from "../Recidencies/Recidencies";
+import Value from "../Value/Value";
+import GetStarted from "../GetStarted/GetStarted";
+import Contact from "../Contact/Contact";
 import "./Home.css";
-import Mission from '../Mission/Mission'
+import Mission from "../Mission/Mission";
 
 const Home = () => {
   return (
     <>
-        <div className="Home">
-            <div>
-                <div className="white-grediant"/>
-                    <Hero />
-               
-            </div>
+      <div className="Home">
+        <div>
+          <div className="white-grediant" />
+          <Hero />
         </div>
-       <Recidencies />
-       <Value />
-       <Contact />
-       {/* <GetStarted /> video ka hai */}
-       <Mission/>
-
+      </div>
+      <Recidencies />
+      <Value />
+      <Contact />
+      {/* <GetStarted /> video ka hai */}
+      <Mission />
     </>
-  )
-}
+  );
+};
 
 export default Home;
