@@ -25,24 +25,24 @@ function Navbar() {
         backgroundColor: "#131110",
       }}
     >
-      <div className="container p-2">
+      <div className="container p-2 d-flex justify-content-between align-items-center">
         {/* Logo + Heading */}
         <Link
           className="navbar-brand d-flex align-items-center text-white"
           to="/"
         >
-          <img src="./99-Vihar-Logo.png" alt="logo" width={70} />
-          <div className="ms-3">
-            <h4 className="mb-0 fw-bold">99 VIHAR</h4>
-            <small className="fw-semibold">
+          <img src="./99-Vihar-Logo.png" alt="logo" width={65} />
+          <div className="ms-2">
+            <h5 className="mb-0 fw-bold">99 VIHAR</h5>
+            <small className="fw-semibold" style={{ fontSize: "0.65rem" }}>
               वही प्रॉपर्टी दिखेगा जो सही होगा
             </small>
           </div>
         </Link>
 
-        {/* Toggle Button */}
+        {/* Toggle Button on Right */}
         <button
-          className="navbar-toggler bg-white"
+          className="navbar-toggler bg-white ms-auto"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -93,7 +93,9 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className={`nav-link text-white ${
-                  location.pathname === "/contact" ? "fw-bold text-warning" : ""
+                  location.pathname === "/NavContactPage"
+                    ? "fw-bold text-warning"
+                    : ""
                 }`}
                 to="/NavContactPage"
               >
