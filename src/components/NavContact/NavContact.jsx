@@ -40,14 +40,20 @@ const NavContact = () => {
             }}
           />
           <p className="text-muted mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus.
+            हमसे संपर्क करें! चाहे आप अपना सपना घर खरीदना चाहते हों, साइट विज़िट
+            बुक करनी हो, या किसी भी प्रकार की जानकारी लेनी हो — हमारी टीम आपकी
+            मदद के लिए हमेशा तैयार है। आप हमें कॉल, ईमेल या नीचे दिए गए फॉर्म के
+            ज़रिए संपर्क कर सकते हैं। हम जल्द से जल्द आपसे संपर्क करेंगे।
           </p>
 
           <div className="d-flex align-items-start gap-3 mb-4 text-muted">
-            <FaMapMarkerAlt size={20} style={{ color: "#f4a259", marginTop: "4px" }} />
+            <FaMapMarkerAlt
+              size={20}
+              style={{ color: "#f4a259", marginTop: "4px" }}
+            />
             <p className="mb-0">
-              1th Floor Haripur Allouth, Musrigharari, Near Vastu Vihar<br />
+              1th Floor Haripur Allouth, Musrigharari, Near Vastu Vihar
+              <br />
               Samastipur, Bihar, 848101
             </p>
           </div>

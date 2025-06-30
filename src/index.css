@@ -98,6 +98,18 @@ a {
 }
 
 
+/* changing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
 
 /* media queries */
 @media (min-width: 1536px) {
